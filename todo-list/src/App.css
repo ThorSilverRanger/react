@@ -1,0 +1,48 @@
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  .add-task {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .add-task input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    margin-right: 8px;
+    font-size: 16px;
+  }
+  
+  .add-task button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
